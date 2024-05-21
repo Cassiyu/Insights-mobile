@@ -1,0 +1,31 @@
+[versions]
+androidApplication = "7.3.1"
+kotlin = "1.9.22"
+googleServices = "4.4.1"
+androidCoreKtx = "1.13.1"
+appCompat = "1.6.1"
+material = "1.12.0"
+activityKtx = "1.9.0"
+constraintLayout = "2.1.4"
+justifiedTextView = "1.1.0"
+junit = "4.13.2"
+androidXJunit = "1.1.5"
+espressoCore = "3.5.1"
+firebaseAuth = "23.0.0"
+
+[libraries]
+androidxCoreKtx = { group = "androidx.core", name = "core-ktx", version.ref = "androidCoreKtx" }
+androidxAppCompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appCompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidxActivity = { group = "androidx.activity", name = "activity-ktx", version.ref = "activityKtx" }
+androidxConstraintLayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintLayout" }
+justifiedTextView = { group = "com.github.bluejamesbond", name = "JustifiedTextView", version.ref = "justifiedTextView" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidXJunit = { group = "androidx.test.ext", name = "junit", version.ref = "androidXJunit" }
+espressoCore = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+firebaseAuth = { group = "com.google.firebase", name = "firebase-auth-ktx", version.ref = "firebaseAuth" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "androidApplication" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+googleService = { id = "com.google.gms.google-services", version.ref = "googleServices" }

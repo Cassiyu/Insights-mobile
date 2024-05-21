@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="54dp"
+    android:gravity="center"
+    tools:context=".LoadDatasetActivity">
+
+    <TextView
+        android:id="@+id/appNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/davinci_insights"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/explanationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text1_2"
+        android:textSize="13sp"
+        android:fontFamily="@font/roboto_light"
+        android:justificationMode="inter_word"
+        android:layout_marginTop="32dp"
+        tools:ignore="VisualLintLongText"
+        tools:targetApi="o" />
+
+    <TextView
+        android:id="@+id/requirementsTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/requisitos"
+        android:textSize="13sp"
+
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/requirementsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text2_2"
+        android:textSize="13sp"
+        android:fontFamily="@font/roboto_light"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/csvPlaceholderTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/carregar_dataset"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@drawable/csv_placeholder_background"
+        android:layout_marginTop="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/analizarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/analisar"
+        android:background="@drawable/button"
+        android:layout_marginTop="16dp"
+        android:textSize="15sp"
+        android:textColor="#83898C"
+        android:textAllCaps="false"
+        android:enabled="false"
+        tools:ignore="VisualLintButtonSize" />
+
+</LinearLayout>

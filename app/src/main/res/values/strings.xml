@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Insights</string>
+    <string name="texto1"> Com o DaVinci Insights,
+        mergulhe profundamente em suas avaliações de produtos e descubra as pérolas escondidas
+        entre as avaliações neutras.</string>
+    <string name="texto2">Transforme dados em ações e impulsione suas vendas agora!</string>
+    <string name="botao_iniciar">Iniciar</string>
+    <string name="davinci_insights">DaVinci Insights</string>
+    <string name="text1_2">Vamos explorar os insights ocultos em seu dataset de feedbacks para
+        entender melhor as opiniões dos clientes e impulsionar melhorias em seus produtos e
+        serviços.</string>
+    <string name="requisitos">Requisitos</string>
+    <string name="text2_2">As colunas principais devem ser nomeadas como:\n\n• Nome do produto será
+        nome\n• Avaliação(texto) será opniao\n• Avaliação(estrelas) será estrelas</string>
+    <string name="carregar_dataset">Carregar Dataset</string>
+    <string name="analisar">Analisar</string>
+    <string name="text">Descubra oportunidades de vendas escondidas!</string>
+    <string name="botao_voltar">Botão Voltar</string>
+    <string name="carregamento_concluido">Carregamento Concluído!</string>
+    <string name="text1_3">Seus dados estão prontos para análise. Explore as possibilidades e descubra insights valiosos para impulsionar suas vendas e melhorar a experiência do cliente.</string>
+    <string name="visualizar">Visualizar</string>
+    <string name="resultados">Resultados</string>
+    <string name="text1_4">O seu Dataset possui ??? avaliações veja as possibilidades para alavancar suas vendas</string>
+    <string name="pesquisar_por_um_produto">Pesquisar por um produto</string>
+    <string name="search_icon">ícone de pesquisa</string>
+    <string name="potenciais_produtos_para_alavancagem">Potenciais produtos para alavancagem</string>
+    <string name="expandir">Expandir</string>
+    <string name="estrela">Estrela</string>
+    <string name="produto_1">Produto 1</string>
+    <string name="n_compras">N Compras</string>
+    <string name="produto_2">Produto 2</string>
+    <string name="produto_3">Produto 3</string>
+    <string name="media_de_avaliacoes_por_produto">Média de avaliações por produto</string>
+    <string name="text2_4">N Opiniões e N Estrelas por produto</string>
+    <string name="anaise_de_sentimento_por_produto">Análise de sentimento por produto</string>
+    <string name="positivas">Positivas ?%</string>
+    <string name="neutras_nulas">Neutras/Nulas ?%</string>
+    <string name="impulsionar">Impulsionar</string>
+    <string name="negativas">Negativas ?%</string>
+    <string name="grafico">Gráfico</string>
+    <string name="avaliacoes">Avaliações</string>
+    <string name="menu">Menu</string>
+    <string name="herbalova">Herbalova</string>
+    <string name="already_have_account"><u>Já possui login? Login</u></string>
+    <string name="sign_up">Cadastro</string>
+    <string name="login">Login</string>
+    <string name="not_registered_yet"><u>Não tem registro? Cadastro</u></string>
+    <string name="forgot_password">Esqueci a senha?</string>
+    <string name="confirm_password">Confirme a senha</string>
+    <string name="password">Senha</string>
+    <string name="email">Email</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="resetar">Resetar</string>
+    <string name="digite_seu_email">Digite seu Email</string>
+    <string name="esqueci_minha_senha">Esqueci minha senha</string>
+</resources>
